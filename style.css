@@ -1,0 +1,44 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Replace with your background image URL */
+      background-size: cover;
+      color: #ffffff; 
+  }
+  h1, h2 {
+    color: #1a9e707a;
+    font-weight: bold;  /* Adjust heading text color as needed */
+  }
+  p {
+    color: #f6f6f6; /* Adjust paragraph text color as needed */
+  }
+  .container {
+    margin-top: 20px;
+  }
+  
+  .post {
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color for posts */
+      padding: 5px;
+  }
+  
+  .post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .image-container img {
+    max-width: calc(33.33% - 10px); /* Adjust as needed */
+    margin-bottom: 10px;
+  }
+  
+  
